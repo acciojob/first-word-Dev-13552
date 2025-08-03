@@ -5,7 +5,7 @@ function firstWord(s) {
 	}
 	let i = 0;
 	let output = ""
-	while(i < s.length && [i] != " "){
+	while(i < s.length && s[i] != " "){
 		output += s[i]
 		i++
 	}
