@@ -1,5 +1,6 @@
 function firstWord(s) {
   // your code here
+	s = s.trim()
 	if(s.length == 0){
 		return s;
 	}
@@ -9,8 +10,10 @@ function firstWord(s) {
 		output += s[i]
 		i++
 	}
+	
 	return output
 }
+
 
 // Do not change the code below
 const s = prompt("Enter String:");
