@@ -5,7 +5,7 @@ function firstWord(s) {
 	}
 	let i = 0;
 	let output = ""
-	while(s[i] != " "){
+	while(i < s.length && [i] != " "){
 		output += s[i]
 		i++
 	}
@@ -13,7 +13,6 @@ function firstWord(s) {
 }
 
 // Do not change the code below
-
-const s = prompt("Enter String:");
+// const s = prompt("Enter String:");
 
 alert(firstWord(s));
